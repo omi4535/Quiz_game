@@ -27,13 +27,14 @@ public class result extends AppCompatActivity {
     FirebaseDatabase database = FirebaseDatabase.getInstance();
     FirebaseAuth auth = FirebaseAuth.getInstance();
     FirebaseUser user = auth.getCurrentUser();
-    DatabaseReference result = database.getReference().child("score").child(user.getUid().toString());
+    DatabaseReference result = database.getReference().child("score").child(user.getUid());
 
-    TextView show_r,show_w,max,total;
+    TextView show_r,show_w,max,total,newh;
     Button exit,play_again;
 
 
-    int ri,wr,highest;
+    String ri,wr,high;
+    int t;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -45,12 +46,26 @@ public class result extends AppCompatActivity {
         play_again = findViewById(R.id.play_again);
         max = findViewById(R.id.max);
         total = findViewById(R.id.total);
+        newh = findViewById(R.id.highest);
+
         result.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                ri = (int) snapshot.child("right").getValue();
-                wr = (int) snapshot.child("wrong").getValue();
-                highest = (int) snapshot.child("highest").getValue();
+                ri =snapshot.child("right").getValue().toString();
+                wr =  snapshot.child("wrong").getValue().toString();
+                high =  snapshot.child("highest").getValue().toString();
+                show_w.setText(""+wr);
+                show_r.setText(""+ri);
+                max.setText("Highest Score : "+high);
+                t = (Integer.parseInt(ri)*4-Integer.parseInt(wr));
+                total.setText("Total Score : "+t);
+                if(t>Integer.parseInt(high)) {
+                    newh.setVisibility(View.VISIBLE);
+                }else
+                {
+                    newh.setVisibility(View.INVISIBLE);
+
+                }
             }
 
             @Override
@@ -59,10 +74,13 @@ public class result extends AppCompatActivity {
             }
         });
 
-        int t = ri*4-wr;
-        if(t>highest) {
-            
-        }
+//
+//        show_w.setText(""+wr);
+//        show_r.setText(""+ri);
+//        total.setText("Total Score : "+(ri*4-wr));
+//        max.setText("Highest Score : "+high);
+//        int t = ri*4-wr;
+
         exit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

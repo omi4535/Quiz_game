@@ -2800,6 +2800,7 @@ id guideline
 id header_title
 id hideable
 id high_score
+id highest
 id home
 id homeAsUp
 id honorRequest
@@ -2859,6 +2860,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id max
 id message
 id middle
 id mini
@@ -3090,6 +3092,7 @@ id to_sign_up
 id toggle
 id top
 id topPanel
+id total
 id touch_outside
 id transitionToEnd
 id transitionToStart

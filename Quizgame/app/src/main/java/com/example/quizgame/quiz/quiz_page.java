@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.CountDownTimer;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -50,17 +51,19 @@ public class quiz_page extends AppCompatActivity {
     int que_no =1;
     int r=0,w=0;
     String highest;
-    boolean exist= false;
-    int all_high;
 
 
+    CountDownTimer countDownTimer;
+    final static private long total_time = 300000;
+    long time_left = total_time;
+    Boolean timer_running;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_page);
-
+        start_timer();
         wrong = findViewById(R.id.wrong_score);
         right = findViewById(R.id.right_score);
         timer = findViewById(R.id.timer);
@@ -276,4 +279,42 @@ public class quiz_page extends AppCompatActivity {
 
 
     }
+
+
+    void start_timer(){
+        countDownTimer = new CountDownTimer(time_left,100){
+
+            @Override
+            public void onTick(long millisUntilFinished) {
+
+                time_left = millisUntilFinished;
+                show_timer();
+
+            }
+
+            @Override
+            public void onFinish() {
+                timer_running = false;
+                pasue_timer();
+                text_question.setText("Sorry time up. Move to next question.");
+
+            }
+        }.start();
+    }
+    void show_timer(){
+        int sec = (int) ((time_left/1000)%60);
+        int min = (int) (time_left/1000)/60;
+        timer.setText(""+min+":"+sec);
+    }
+
+    void pasue_timer(){
+        countDownTimer.cancel();
+        timer_running = false;
+    }
+
+    void reset_timer(){
+        time_left=total_time;
+
+    }
+
 }

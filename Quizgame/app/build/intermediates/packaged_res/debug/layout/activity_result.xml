@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
-        android:layout_marginTop="59dp"
+        android:layout_marginTop="37dp"
         android:src="@drawable/congratulations"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -21,43 +21,80 @@
         android:id="@+id/t_right"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="37dp"
+        android:layout_marginTop="38dp"
         android:fontFamily="@font/font_login"
-        android:layout_marginTop="40dp"
         android:text="0"
         android:textSize="30dp"
-        app:layout_constraintStart_toEndOf="@+id/textView13"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+        app:layout_constraintStart_toStartOf="@+id/t_wrong"
+        app:layout_constraintTop_toBottomOf="@+id/max" />
 
     <TextView
         android:id="@+id/t_wrong"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="54dp"
-        android:text="0"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="36dp"
         android:fontFamily="@font/font_login"
+        android:text="0"
         android:textSize="30dp"
-        app:layout_constraintEnd_toEndOf="@+id/t_right"
-        app:layout_constraintStart_toStartOf="@+id/t_right"
-        app:layout_constraintTop_toBottomOf="@+id/t_right" />
+        app:layout_constraintBottom_toTopOf="@+id/total"
+        app:layout_constraintStart_toEndOf="@+id/total" />
 
     <TextView
         android:id="@+id/textView13"
-        android:fontFamily="@font/font_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
+        android:fontFamily="@font/font_login"
         android:text="Right Attempt : "
         android:textSize="30dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/t_right"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/max"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="2dp"
         android:fontFamily="@font/font_login"
+        android:text="Highest Score : "
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/t_right"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4" />
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:fontFamily="@font/font_login"
+        android:text="Total Score: "
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/highest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/highest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/font_login"
+        android:text="You are the new high scorer "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#A060F8"
+        app:layout_constraintBottom_toTopOf="@+id/play_again"
+        app:layout_constraintEnd_toEndOf="@+id/exit" />
+
+    <TextView
+        android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
+        android:fontFamily="@font/font_login"
         android:text="Wrong Attempt : "
         android:textSize="30dp"
         app:layout_constraintBaseline_toBaselineOf="@+id/t_wrong"
@@ -68,26 +105,25 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:padding="20dp"
-        android:text="Play Again "
+        android:layout_marginBottom="56dp"
         android:background="#F4E7F8"
         android:fontFamily="@font/font_login"
-        app:layout_constraintBottom_toBottomOf="@+id/exit"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/exit"
-        app:layout_constraintVertical_bias="0.0" />
+        android:padding="20dp"
+        android:text="Play Again "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/exit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="144dp"
-        android:text="Exit "
+
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="49dp"
         android:background="#F4E7F8"
         android:fontFamily="@font/font_login"
-
         android:padding="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        android:text="Exit "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/highest" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -29,11 +29,13 @@ id fbutton
 id femail
 id forgot_pass
 id high_score
+id highest
 id imageView
 id imageView2
 id imageView3
 id imageView4
 id login_button
+id max
 id name
 id next
 id next2
@@ -79,6 +81,7 @@ id textView8
 id timer
 id titel
 id to_sign_up
+id total
 id tt
 id ttt
 id tttt

@@ -2799,6 +2799,7 @@ int id guideline 0x7f0900e2
 int id header_title 0x7f0900e3
 int id hideable 0x7f0900e4
 int id high_score 0x7f0900e5
+int id highest 0x7f090234
 int id home 0x7f0900e6
 int id homeAsUp 0x7f0900e7
 int id honorRequest 0x7f0900e8
@@ -2858,6 +2859,7 @@ int id material_timepicker_ok_button 0x7f09011d
 int id material_timepicker_view 0x7f09011e
 int id material_value_index 0x7f09011f
 int id matrix 0x7f090120
+int id max 0x7f090235
 int id message 0x7f090121
 int id middle 0x7f090122
 int id mini 0x7f090123
@@ -3089,6 +3091,7 @@ int id to_sign_up 0x7f0901f9
 int id toggle 0x7f0901fa
 int id top 0x7f0901fb
 int id topPanel 0x7f0901fc
+int id total 0x7f090236
 int id touch_outside 0x7f0901fd
 int id transitionToEnd 0x7f0901fe
 int id transitionToStart 0x7f0901ff

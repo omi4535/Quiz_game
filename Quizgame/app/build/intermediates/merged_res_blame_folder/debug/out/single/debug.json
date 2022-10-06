@@ -64,10 +64,6 @@
         "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\anim\\splash_anim.xml"
     },
     {
-        "merged": "com.example.quizgame.app-merged_res-35:/layout_activity_quiz_page.xml.flat",
-        "source": "com.example.quizgame.app-main-37:/layout/activity_quiz_page.xml"
-    },
-    {
         "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\mipmap-hdpi_ic_launcher_background.png.flat",
         "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\mipmap-hdpi\\ic_launcher_background.png"
     },
@@ -114,5 +110,9 @@
     {
         "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\drawable_img.png.flat",
         "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\drawable\\img.png"
+    },
+    {
+        "merged": "com.example.quizgame.app-merged_res-35:/layout_activity_result.xml.flat",
+        "source": "com.example.quizgame.app-main-37:/layout/activity_result.xml"
     }
 ]
