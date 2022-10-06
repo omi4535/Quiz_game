@@ -17,6 +17,9 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class Sign_up extends AppCompatActivity {
 
@@ -42,12 +45,28 @@ public class Sign_up extends AppCompatActivity {
         progressBar = findViewById(R.id.progresbar);
 
 
+        //create_high_score();
         Sign_up_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 sign_up();
             }
         });
+    }
+
+    private void create_high_score() {
+    FirebaseUser user = auth.getCurrentUser();
+    FirebaseDatabase database = FirebaseDatabase.getInstance();
+    DatabaseReference reference = database.getReference().child("score").child(user.getUid());
+
+        reference.child("h1").setValue(0);
+        reference.child("h2").setValue(0);
+        reference.child("h3").setValue(0);
+        reference.child("h4").setValue(0);
+        reference.child("h5").setValue(0);
+
+
+
     }
 
     public void sign_up(){
@@ -63,6 +82,7 @@ public class Sign_up extends AppCompatActivity {
                         @Override
                         public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
+                            create_high_score();
                             Intent i = new Intent(Sign_up.this, create_profile.class);
                             startActivity(i);
 

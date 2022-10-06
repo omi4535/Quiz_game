@@ -31,6 +31,7 @@ public class result extends AppCompatActivity {
 
     TextView show_r,show_w,max,total,newh;
     Button exit,play_again;
+    String h1,h2,h3,h4,h5;
 
 
     String ri,wr,high;
@@ -54,18 +55,26 @@ public class result extends AppCompatActivity {
                 ri =snapshot.child("right").getValue().toString();
                 wr =  snapshot.child("wrong").getValue().toString();
                 high =  snapshot.child("highest").getValue().toString();
+                h1 = snapshot.child("h1").getValue().toString();
+                h2 = snapshot.child("h2").getValue().toString();
+                h3 = snapshot.child("h3").getValue().toString();
+                h4 = snapshot.child("h4").getValue().toString();
+                h5 = snapshot.child("h5").getValue().toString();
+
                 show_w.setText(""+wr);
                 show_r.setText(""+ri);
                 max.setText("Highest Score : "+high);
                 t = (Integer.parseInt(ri)*4-Integer.parseInt(wr));
                 total.setText("Total Score : "+t);
-                if(t>Integer.parseInt(high)) {
+                if(t>=Integer.parseInt(high)) {
+                    result.child("highest").setValue(t);
                     newh.setVisibility(View.VISIBLE);
                 }else
                 {
                     newh.setVisibility(View.INVISIBLE);
 
                 }
+                maintain_high_score(t);
             }
 
             @Override
@@ -117,6 +126,12 @@ public class result extends AppCompatActivity {
                 finish();
             }
         });
+        }
+
+        void maintain_high_score(int curr){
+
+
+
         }
 
 }

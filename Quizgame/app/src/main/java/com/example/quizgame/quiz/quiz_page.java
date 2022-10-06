@@ -101,7 +101,7 @@ public class quiz_page extends AppCompatActivity {
                     highest = snapshot.child(user.getUid().toString()).child("highest").getValue().toString();
                 }else
                 {
-                   highest = "0";
+                   highest = String.valueOf(r*4-w);
                 }
             }
 
@@ -117,8 +117,8 @@ public class quiz_page extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 int h = Integer.parseInt(highest);
-                if(h < r*4-w){
-                    scoreref.child(user.getUid().toString()).child("highest").setValue(highest);
+                if(h <= r*4-w){
+                    scoreref.child(user.getUid().toString()).child("highest").setValue(h);
                     scoreref.child(user.getUid().toString()).child("right").setValue(r);
                     scoreref.child(user.getUid().toString()).child("wrong").setValue(w);
 
@@ -296,6 +296,8 @@ public class quiz_page extends AppCompatActivity {
             public void onFinish() {
                 timer_running = false;
                 pasue_timer();
+                next.setClickable(false);
+                prv.setClickable(false);
                 text_question.setText("Sorry time up. Move to next question.");
 
             }
