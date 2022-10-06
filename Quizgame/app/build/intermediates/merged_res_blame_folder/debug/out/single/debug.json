@@ -1,0 +1,118 @@
+[
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\mipmap-xxxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\layout_activity_sign_up.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\layout\\activity_sign_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\font_font_login.ttf.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\font\\font_login.ttf"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\layout_activity_main_page.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\layout\\activity_main_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\layout_activity_quiz_page.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\layout\\activity_quiz_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\layout_activity_result_page.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\layout\\activity_result_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\drawable_img2.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\drawable\\img2.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\mipmap-xhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\layout_activity_create_profile.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\layout\\activity_create_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\mipmap-xxhdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\layout_activity_try.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\layout\\activity_try.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\drawable_img_1.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\drawable\\img_1.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\anim_splash_anim.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\anim\\splash_anim.xml"
+    },
+    {
+        "merged": "com.example.quizgame.app-merged_res-35:/layout_activity_quiz_page.xml.flat",
+        "source": "com.example.quizgame.app-main-37:/layout/activity_quiz_page.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\mipmap-hdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\layout_activity_result.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\layout\\activity_result.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\drawable_login_background.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\drawable\\login_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\drawable_button.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\drawable\\button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\mipmap-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\drawable_gradient_for_background.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\drawable\\gradient_for_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\font_login_font.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\font\\login_font.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\drawable_congratulations.jpg.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\drawable\\congratulations.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\layout_activity_forget_pass.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\layout\\activity_forget_pass.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\layout_activity_log_in.xml.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\layout\\activity_log_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-merged_res-35:\\drawable_img.png.flat",
+        "source": "C:\\Users\\Hp\\.gradle\\daemon\\7.3.3\\com.example.quizgame.app-main-37:\\drawable\\img.png"
+    }
+]
